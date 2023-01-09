@@ -1,2 +1,2 @@
 
-Copyright (C) 2022 Idel
+Copyright (C) 2023 Idel
