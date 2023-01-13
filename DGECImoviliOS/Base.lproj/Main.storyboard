@@ -1,24 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="B7S-Yf-P4k">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="regular.otf">
+            <string>AkzidGrtskNext-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Creditos View Controller-->
+        <scene sceneID="ffF-h0-d3N">
+            <objects>
+                <viewController id="BqZ-yZ-Hk9" customClass="CreditosViewController" customModule="DGECImoviliOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yXf-6X-nbU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rG4-W3-jxx">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unam-blanco" translatesAutoresizingMaskIntoConstraints="NO" id="FLC-sz-VoF">
+                                        <rect key="frame" x="134" y="295" width="125" height="125"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" name="aO"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CT5-FN-meo"/>
+                        <color key="backgroundColor" name="_barra"/>
+                        <constraints>
+                            <constraint firstItem="rG4-W3-jxx" firstAttribute="leading" secondItem="CT5-FN-meo" secondAttribute="leading" id="TZY-yy-CSF"/>
+                            <constraint firstItem="rG4-W3-jxx" firstAttribute="top" secondItem="CT5-FN-meo" secondAttribute="top" id="Tbc-gP-e56"/>
+                            <constraint firstItem="CT5-FN-meo" firstAttribute="bottom" secondItem="rG4-W3-jxx" secondAttribute="bottom" id="nIW-dn-nj9"/>
+                            <constraint firstItem="CT5-FN-meo" firstAttribute="trailing" secondItem="rG4-W3-jxx" secondAttribute="trailing" id="tG6-a8-fJK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0gj-tw-bvF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fDu-da-6UA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2226.7175572519081" y="798.59154929577471"/>
+        </scene>
+        <!--Perfil View Controller-->
+        <scene sceneID="rP3-SW-bWZ">
+            <objects>
+                <viewController id="vPQ-9d-2C3" customClass="PerfilViewController" customModule="DGECImoviliOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lu5-mM-0VL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SIk-FA-wrb">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GW9-8j-AA0">
+                                        <rect key="frame" x="178" y="346.66666666666669" width="37" height="22"/>
+                                        <fontDescription key="fontDescription" name="AkzidGrtskNext-Regular" family="Akzidenz-Grotesk Next" pointSize="17"/>
+                                        <color key="textColor" name="_barraIcons"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="nn"/>
+                                <constraints>
+                                    <constraint firstItem="GW9-8j-AA0" firstAttribute="centerX" secondItem="SIk-FA-wrb" secondAttribute="centerX" id="7R0-Vm-Jww"/>
+                                    <constraint firstItem="GW9-8j-AA0" firstAttribute="centerY" secondItem="SIk-FA-wrb" secondAttribute="centerY" id="zKA-Es-GbX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hYp-xX-dTG"/>
+                        <color key="backgroundColor" name="_barra"/>
+                        <constraints>
+                            <constraint firstItem="SIk-FA-wrb" firstAttribute="leading" secondItem="hYp-xX-dTG" secondAttribute="leading" id="7uv-uF-fcW"/>
+                            <constraint firstItem="hYp-xX-dTG" firstAttribute="bottom" secondItem="SIk-FA-wrb" secondAttribute="bottom" id="Ayn-nZ-sXk"/>
+                            <constraint firstItem="SIk-FA-wrb" firstAttribute="top" secondItem="hYp-xX-dTG" secondAttribute="top" id="EVB-jH-o9U"/>
+                            <constraint firstItem="hYp-xX-dTG" firstAttribute="trailing" secondItem="SIk-FA-wrb" secondAttribute="trailing" id="y2y-q9-Whu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cDr-DA-fx8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wep-iQ-sOg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2097" y="-1159"/>
+        </scene>
+        <!--Mensajes-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MensajesViewController" customModule="DGECImoviliOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUJ-4Y-gQr">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mensajes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcF-IH-s9P">
+                                        <rect key="frame" x="162.66666666666666" y="322" width="67.666666666666657" height="22"/>
+                                        <fontDescription key="fontDescription" name="AkzidGrtskNext-Regular" family="Akzidenz-Grotesk Next" pointSize="17"/>
+                                        <color key="textColor" name="bb"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="nn"/>
+                                <constraints>
+                                    <constraint firstItem="YcF-IH-s9P" firstAttribute="centerX" secondItem="sUJ-4Y-gQr" secondAttribute="centerX" id="XZ4-5n-KHD"/>
+                                    <constraint firstItem="YcF-IH-s9P" firstAttribute="centerY" secondItem="sUJ-4Y-gQr" secondAttribute="centerY" id="dfD-ol-5Bz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="_barra"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sUJ-4Y-gQr" secondAttribute="bottom" id="39A-VS-oZf"/>
+                            <constraint firstItem="sUJ-4Y-gQr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VMZ-9G-CJN"/>
+                            <constraint firstItem="sUJ-4Y-gQr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="j58-E5-2Jp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sUJ-4Y-gQr" secondAttribute="trailing" id="z5C-2z-k5D"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Mensajes" image="envelope.fill" catalog="system" id="6zH-Mz-8Ug"/>
+                    <navigationItem key="navigationItem" id="2M3-XM-0BN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2966" y="-611"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="w2P-wo-bgA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B7S-Yf-P4k" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aZy-wp-8Dr">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="bb"/>
+                        <color key="barTintColor" name="danger"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VPo-K2-yJ9" kind="relationship" relationship="rootViewController" id="rf4-Pr-qmn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5zT-4y-WXK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-698" y="-2"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="VcP-Nd-HaI">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="VPo-K2-yJ9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="yL5-dt-aSt">
+                        <barButtonItem key="leftBarButtonItem" image="star.fill" catalog="system" id="UYe-Zb-Vms">
+                            <connections>
+                                <segue destination="BqZ-yZ-Hk9" kind="show" id="gpU-2O-8v8"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="person.fill" catalog="system" id="bDn-ml-PgV">
+                            <connections>
+                                <segue destination="vPQ-9d-2C3" kind="show" id="42Y-7f-A8q"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="S6u-4w-XOC">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="_barra"/>
+                        <color key="barTintColor" name="_barraIcons"/>
+                        <color key="selectedImageTintColor" name="_barraIcons"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="LaF-ae-EKI"/>
+                        <segue destination="Kqi-h2-wkR" kind="relationship" relationship="viewControllers" id="Uel-Sl-8uI"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fTZ-Vv-wid" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="975" y="-2"/>
+        </scene>
+        <!--Configuración-->
+        <scene sceneID="yBx-rn-aTJ">
+            <objects>
+                <viewController id="Kqi-h2-wkR" customClass="ConfiguracionViewController" customModule="DGECImoviliOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4SB-Yr-ZIW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sn3-Ty-PjN">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="configuracion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXh-YP-Dgc">
+                                        <rect key="frame" x="148.33333333333334" y="322" width="96.333333333333343" height="22"/>
+                                        <fontDescription key="fontDescription" name="AkzidGrtskNext-Regular" family="Akzidenz-Grotesk Next" pointSize="17"/>
+                                        <color key="textColor" name="_barraIcons"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="nn"/>
+                                <constraints>
+                                    <constraint firstItem="OXh-YP-Dgc" firstAttribute="centerX" secondItem="sn3-Ty-PjN" secondAttribute="centerX" id="bq5-DI-1xj"/>
+                                    <constraint firstItem="OXh-YP-Dgc" firstAttribute="centerY" secondItem="sn3-Ty-PjN" secondAttribute="centerY" id="vj1-eK-9F2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tk7-sv-U7s"/>
+                        <color key="backgroundColor" name="_barra"/>
+                        <constraints>
+                            <constraint firstItem="sn3-Ty-PjN" firstAttribute="top" secondItem="tk7-sv-U7s" secondAttribute="top" id="QPH-JE-YI7"/>
+                            <constraint firstItem="tk7-sv-U7s" firstAttribute="bottom" secondItem="sn3-Ty-PjN" secondAttribute="bottom" id="UhP-w7-bsZ"/>
+                            <constraint firstItem="tk7-sv-U7s" firstAttribute="trailing" secondItem="sn3-Ty-PjN" secondAttribute="trailing" id="jej-bi-Uto"/>
+                            <constraint firstItem="sn3-Ty-PjN" firstAttribute="leading" secondItem="tk7-sv-U7s" secondAttribute="leading" id="xWU-Xf-aRI"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Configuración" image="list.bullet.circle.fill" catalog="system" id="4Hm-b9-ANJ"/>
+                    <navigationItem key="navigationItem" id="ORm-tm-yDY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Npc-eS-7Bf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2966" y="125"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="envelope.fill" catalog="system" width="128" height="93"/>
+        <image name="list.bullet.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <image name="unam-blanco" width="125" height="125"/>
+        <namedColor name="_barra">
+            <color red="0.13300000131130219" green="0.33700001239776611" blue="0.55699998140335083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="_barraIcons">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="aO">
+            <color red="0.063000001013278961" green="0.125" blue="0.25099998712539673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="bb">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="danger">
+            <color red="0.86299997568130493" green="0.20800000429153442" blue="0.27099999785423279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="nn">
+            <color red="0.2669999897480011" green="0.2669999897480011" blue="0.2669999897480011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

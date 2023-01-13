@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F85C096029516CB400204812 /* bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095D29516C6300204812 /* bold.otf */; };
+		F85C096129516CB700204812 /* bold2.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095229516C6300204812 /* bold2.otf */; };
+		F85C096229516CBB00204812 /* itabold2.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095429516C6300204812 /* itabold2.otf */; };
+		F85C096329516CBB00204812 /* italight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095529516C6300204812 /* italight.otf */; };
+		F85C096429516CBB00204812 /* itaregular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095A29516C6300204812 /* itaregular.otf */; };
+		F85C096529516CBB00204812 /* medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095E29516C6300204812 /* medium.otf */; };
+		F85C096629516CBB00204812 /* regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095829516C6300204812 /* regular.otf */; };
+		F85C096729516CBB00204812 /* italight2.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095C29516C6300204812 /* italight2.otf */; };
+		F85C096829516CBB00204812 /* itabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095329516C6300204812 /* itabold.otf */; };
+		F85C096929516CBB00204812 /* light2.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095729516C6300204812 /* light2.otf */; };
+		F85C096A29516CBB00204812 /* itabold3.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095B29516C6300204812 /* itabold3.otf */; };
+		F85C096B29516CBB00204812 /* bold3.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095929516C6300204812 /* bold3.otf */; };
+		F85C096C29516CBB00204812 /* itamedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095629516C6300204812 /* itamedium.otf */; };
+		F85C096D29516CBB00204812 /* light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F85C095F29516C6300204812 /* light.otf */; };
 		F87C995D29514D9C004D7C33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C995C29514D9C004D7C33 /* AppDelegate.swift */; };
 		F87C995F29514D9C004D7C33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C995E29514D9C004D7C33 /* SceneDelegate.swift */; };
 		F87C996129514D9C004D7C33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C996029514D9C004D7C33 /* ViewController.swift */; };
@@ -14,9 +28,27 @@
 		F87C996729514D9C004D7C33 /* DGECImoviliOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F87C996529514D9C004D7C33 /* DGECImoviliOS.xcdatamodeld */; };
 		F87C996929514D9F004D7C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87C996829514D9F004D7C33 /* Assets.xcassets */; };
 		F87C996C29514D9F004D7C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87C996A29514D9F004D7C33 /* LaunchScreen.storyboard */; };
+		F885A4F52971DE750094EBF9 /* CreditosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885A4F42971DE750094EBF9 /* CreditosViewController.swift */; };
+		F885A4F72971E1260094EBF9 /* ConfiguracionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885A4F62971E1260094EBF9 /* ConfiguracionViewController.swift */; };
+		F885A4F92971E13C0094EBF9 /* MensajesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885A4F82971E13C0094EBF9 /* MensajesViewController.swift */; };
+		F885A4FC2971E1590094EBF9 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885A4FB2971E1590094EBF9 /* PerfilViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F85C095229516C6300204812 /* bold2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bold2.otf; sourceTree = "<group>"; };
+		F85C095329516C6300204812 /* itabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = itabold.otf; sourceTree = "<group>"; };
+		F85C095429516C6300204812 /* itabold2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = itabold2.otf; sourceTree = "<group>"; };
+		F85C095529516C6300204812 /* italight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = italight.otf; sourceTree = "<group>"; };
+		F85C095629516C6300204812 /* itamedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = itamedium.otf; sourceTree = "<group>"; };
+		F85C095729516C6300204812 /* light2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = light2.otf; sourceTree = "<group>"; };
+		F85C095829516C6300204812 /* regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = regular.otf; sourceTree = "<group>"; };
+		F85C095929516C6300204812 /* bold3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bold3.otf; sourceTree = "<group>"; };
+		F85C095A29516C6300204812 /* itaregular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = itaregular.otf; sourceTree = "<group>"; };
+		F85C095B29516C6300204812 /* itabold3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = itabold3.otf; sourceTree = "<group>"; };
+		F85C095C29516C6300204812 /* italight2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = italight2.otf; sourceTree = "<group>"; };
+		F85C095D29516C6300204812 /* bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bold.otf; sourceTree = "<group>"; };
+		F85C095E29516C6300204812 /* medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = medium.otf; sourceTree = "<group>"; };
+		F85C095F29516C6300204812 /* light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = light.otf; sourceTree = "<group>"; };
 		F87C995929514D9C004D7C33 /* DGECImoviliOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGECImoviliOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87C995C29514D9C004D7C33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F87C995E29514D9C004D7C33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +58,10 @@
 		F87C996829514D9F004D7C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F87C996B29514D9F004D7C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F87C996D29514D9F004D7C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F885A4F42971DE750094EBF9 /* CreditosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditosViewController.swift; sourceTree = "<group>"; };
+		F885A4F62971E1260094EBF9 /* ConfiguracionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguracionViewController.swift; sourceTree = "<group>"; };
+		F885A4F82971E13C0094EBF9 /* MensajesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensajesViewController.swift; sourceTree = "<group>"; };
+		F885A4FB2971E1590094EBF9 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +75,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F85C095129516BDE00204812 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F85C095D29516C6300204812 /* bold.otf */,
+				F85C095229516C6300204812 /* bold2.otf */,
+				F85C095929516C6300204812 /* bold3.otf */,
+				F85C095329516C6300204812 /* itabold.otf */,
+				F85C095429516C6300204812 /* itabold2.otf */,
+				F85C095B29516C6300204812 /* itabold3.otf */,
+				F85C095529516C6300204812 /* italight.otf */,
+				F85C095C29516C6300204812 /* italight2.otf */,
+				F85C095629516C6300204812 /* itamedium.otf */,
+				F85C095A29516C6300204812 /* itaregular.otf */,
+				F85C095F29516C6300204812 /* light.otf */,
+				F85C095729516C6300204812 /* light2.otf */,
+				F85C095E29516C6300204812 /* medium.otf */,
+				F85C095829516C6300204812 /* regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		F87C995029514D9C004D7C33 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +115,10 @@
 		F87C995B29514D9C004D7C33 /* DGECImoviliOS */ = {
 			isa = PBXGroup;
 			children = (
+				F885A4F32971DE4A0094EBF9 /* Controller */,
+				F85C095129516BDE00204812 /* Fonts */,
 				F87C995C29514D9C004D7C33 /* AppDelegate.swift */,
 				F87C995E29514D9C004D7C33 /* SceneDelegate.swift */,
-				F87C996029514D9C004D7C33 /* ViewController.swift */,
 				F87C996229514D9C004D7C33 /* Main.storyboard */,
 				F87C996829514D9F004D7C33 /* Assets.xcassets */,
 				F87C996A29514D9F004D7C33 /* LaunchScreen.storyboard */,
@@ -68,6 +126,18 @@
 				F87C996529514D9C004D7C33 /* DGECImoviliOS.xcdatamodeld */,
 			);
 			path = DGECImoviliOS;
+			sourceTree = "<group>";
+		};
+		F885A4F32971DE4A0094EBF9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F87C996029514D9C004D7C33 /* ViewController.swift */,
+				F885A4F42971DE750094EBF9 /* CreditosViewController.swift */,
+				F885A4F62971E1260094EBF9 /* ConfiguracionViewController.swift */,
+				F885A4F82971E13C0094EBF9 /* MensajesViewController.swift */,
+				F885A4FB2971E1590094EBF9 /* PerfilViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +198,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85C096229516CBB00204812 /* itabold2.otf in Resources */,
+				F85C096029516CB400204812 /* bold.otf in Resources */,
+				F85C096B29516CBB00204812 /* bold3.otf in Resources */,
+				F85C096C29516CBB00204812 /* itamedium.otf in Resources */,
 				F87C996C29514D9F004D7C33 /* LaunchScreen.storyboard in Resources */,
 				F87C996929514D9F004D7C33 /* Assets.xcassets in Resources */,
 				F87C996429514D9C004D7C33 /* Main.storyboard in Resources */,
+				F85C096829516CBB00204812 /* itabold.otf in Resources */,
+				F85C096729516CBB00204812 /* italight2.otf in Resources */,
+				F85C096529516CBB00204812 /* medium.otf in Resources */,
+				F85C096629516CBB00204812 /* regular.otf in Resources */,
+				F85C096429516CBB00204812 /* itaregular.otf in Resources */,
+				F85C096129516CB700204812 /* bold2.otf in Resources */,
+				F85C096A29516CBB00204812 /* itabold3.otf in Resources */,
+				F85C096329516CBB00204812 /* italight.otf in Resources */,
+				F85C096D29516CBB00204812 /* light.otf in Resources */,
+				F85C096929516CBB00204812 /* light2.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F885A4F72971E1260094EBF9 /* ConfiguracionViewController.swift in Sources */,
 				F87C996729514D9C004D7C33 /* DGECImoviliOS.xcdatamodeld in Sources */,
 				F87C996129514D9C004D7C33 /* ViewController.swift in Sources */,
 				F87C995D29514D9C004D7C33 /* AppDelegate.swift in Sources */,
 				F87C995F29514D9C004D7C33 /* SceneDelegate.swift in Sources */,
+				F885A4F92971E13C0094EBF9 /* MensajesViewController.swift in Sources */,
+				F885A4FC2971E1590094EBF9 /* PerfilViewController.swift in Sources */,
+				F885A4F52971DE750094EBF9 /* CreditosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
